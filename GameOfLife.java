@@ -15,8 +15,8 @@ public class GameOfLife {
 		////test2(fileName);
 		////int[][] board = read(fileName);
 		//System.out.println(count(board, 4,3));
-		////test3(fileName, 3);
-		play(fileName);
+		test3(fileName, 3);
+		////play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -165,7 +165,7 @@ public class GameOfLife {
 		for (int i = 0; i < arr.length; i++) {
 			rawsLength = arr[i].length;
 			for (int j = 0; j < arr[i].length; j++) {
-				System.out.printf("%4", arr[i][j]);;
+				System.out.printf("%4d", arr[i][j]);;
 			}
 			System.out.println("");
 		}
