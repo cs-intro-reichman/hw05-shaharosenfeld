@@ -165,7 +165,7 @@ public class GameOfLife {
 		for (int i = 0; i < arr.length; i++) {
 			rawsLength = arr[i].length;
 			for (int j = 0; j < arr[i].length; j++) {
-				System.out.printf("%3", arr[i][j]);;
+				System.out.printf("%4", arr[i][j]);;
 			}
 			System.out.println("");
 		}
